@@ -1,17 +1,18 @@
 {
 	"schemaVersion": 1,
 	"id": "anviltweak",
-	"version": "${version}",
-	"name": "AnvilTweak",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"version": "1.0.0",
+	"name": "Anvil Tweak",
+	"description": "A mod that removes the 'Too expensive' message from anvils and makes repairing cost always one level of XP.",
 	"authors": [
-		"Me!"
+		"leleneme on github.com"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/leleneme/minecraft-anvil-tweak/",
+		"sources": "https://github.com/leleneme/minecraft-anvil-tweak/",
+		"issues": "https://github.com/leleneme/minecraft-anvil-tweak/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "GPL-3.0-or-later",
 	"icon": "assets/anviltweak/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -34,8 +35,5 @@
 		"minecraft": "~1.20.4",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
