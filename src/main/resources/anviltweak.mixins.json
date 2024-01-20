@@ -3,7 +3,8 @@
 	"package": "leleneme.anviltweak.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"ItemStackMixin",
+		"AnvilHandlerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
